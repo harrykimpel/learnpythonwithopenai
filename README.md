@@ -8,7 +8,7 @@ By the end of the workshop, you'll be able to interact with your AI bot, gain a 
 
 The tech stack used for this project includes HTML, CSS (with the Milligram framework), Python 3, Flask, and OpenAI.
 
-Presentation - WIP
+Presentation - Coming Soon
 
 ---
 
@@ -30,7 +30,6 @@ Optionally, you can also install NewRelic, which is a monitoring tool that provi
 
 **Level One** is denoted by a reference code provided by OpenAI, but it cannot be executed successfully. This level is essential, as it serves as a foundation for more advanced concepts later on. For reference, please see [https://platform.openai.com/docs/api-reference/chat/create](https://platform.openai.com/docs/api-reference/chat/create).
 
-
 **Level Two** will dive deeper into the world of programming by learning about variables and data structures. These are crucial concepts that will help you in your future projects.
 
 Variables are like containers that hold values. They allow you to store and manipulate data in your code. In Python, you can assign any value to a variable, such as numbers, strings, or even other variables. Data structures, on the other hand, are ways of organizing and storing data in a program. They allow you to work with collections of values, such as lists, tuples, and dictionaries. These structures can be used in a variety of situations, from keeping track of user input to managing large sets of data.
@@ -45,14 +44,15 @@ To start learning about inputs, outputs, and functions in Python, simply type `p
 
 **Level Four** introduces you to the world of APIs using a Python microframework called Flask. Flask is a powerful tool for building web applications, and it is especially useful for building APIs. APIs, or application programming interfaces, enable different software applications to communicate with each other.
 
-To start learning about APIs in Python, simply type `python3 levelfour.py` and run the code. 
+To start learning about APIs in Python, simply type `flask --app levelfour.py run` and run the code. 
 
 
 **Level Five** will dive deeper by leveraging our previous experience with implementing OpenAI with functions and Flask. Specifically, we will take the function we previously created and make it available as an endpoint using Flask. By doing so, we will be able to expand the functionality of our application and make it more accessible to users. This will require us to carefully consider the design of our code and make strategic decisions about how we structure our application.
 
-To start the application in Python, simply type `python3 levelfive.py` and run the code. 
+To start the application in Python, simply type `flask --app levelfive.py run` and run the code. 
 
 
 **Level Six** is an optional challenge that focuses on observability. This concept is important to ensure that the application runs smoothly and optimally for users. To achieve this, we will onboard a New Relic Python agent into our app. The agent collects data and provides real-time visibility into application behavior, helping to identify potential issues before they impact users.
 
-To start the application in Python, simply type `python3 levelsix.py` and run the code.
+
+To start the application in Python, simply type `NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelsix.py run` and run the code.
