@@ -1,7 +1,7 @@
 import os
 import openai
 # API keys for accessing AI models developed by OpenAI.
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "API_KEY_HERE"
 
 completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",

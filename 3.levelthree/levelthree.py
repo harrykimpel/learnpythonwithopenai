@@ -1,6 +1,6 @@
 import os
 import openai
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "API_KEY_HERE"
 
 # variables are containers for storing data values.
 prompt = "Hello who are you?"

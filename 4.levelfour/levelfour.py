@@ -33,4 +33,4 @@ def prompt():
 # run the application on the local machine using flask --app levelfour.py run
 if __name__ == '__main__':
     # enables debug mode and specifies the port number to run the application on.
-    app.run(debug=True, port=5000)
+    app.run(host="localhost", debug=True, port=5000)

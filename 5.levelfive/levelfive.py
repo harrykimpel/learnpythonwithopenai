@@ -2,7 +2,7 @@ import os
 import openai
 from flask import Flask, render_template, request
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = "API_KEY_HERE"
 
 app = Flask(__name__)
 
@@ -36,4 +36,4 @@ def prompt():
 
 # run the application on the local machine using flask --app levelfive.py run
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host="localhost", debug=True, port=5000)
