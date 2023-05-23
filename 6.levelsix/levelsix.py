@@ -1,6 +1,5 @@
 # import the New Relic Python Agent
 import newrelic.agent
-import os
 import openai
 from flask import Flask, render_template, request
 

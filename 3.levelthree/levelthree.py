@@ -1,4 +1,3 @@
-import os
 import openai
 openai.api_key = "API_KEY_HERE"
 
@@ -6,7 +5,7 @@ openai.api_key = "API_KEY_HERE"
 prompt = "Hello who are you?"
 
 # a function is a block of code which only runs when it is called.
-# you can include data - prompt, known as parameters, into a function.
+# you can include data aka prompt, known as parameters, into a function.
 
 
 def chatCompletion(prompt):

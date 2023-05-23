@@ -1,4 +1,3 @@
-import os
 import openai
 # API keys for accessing AI models developed by OpenAI.
 openai.api_key = "API_KEY_HERE"
