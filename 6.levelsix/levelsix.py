@@ -34,6 +34,7 @@ def prompt():
     return render_template("index.html", output=output_prompt)
 
 
-# run the application on the local machine using flask --app levelsix.py run
+# run the application on the local machine using
+# flask --app levelsix.py run --host 0.0.0.0 --port 5004
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True, port=5004)
