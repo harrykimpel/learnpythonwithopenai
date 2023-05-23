@@ -36,25 +36,21 @@ Each level is designed to run as a standalone application to avoid unnecessary i
 
 **Level Two** will dive deeper into the world of programming by learning about variables and data structures. These are crucial concepts that will help you in your future projects.
 
-Variables are like containers that hold values. They allow you to store and manipulate data in your code. In Python, you can assign any value to a variable, such as numbers, strings, or even other variables. Data structures, on the other hand, are ways of organizing and storing data in a program. They allow you to work with collections of values, such as lists, tuples, and dictionaries. These structures can be used in a variety of situations, from keeping track of user input to managing large sets of data.
+Variables are like containers that hold values. They allow you to store and manipulate data in your code. In Python, you can assign any value to a variable, such as numbers, strings, or even other variables. Data structures, on the other hand, are ways of organizing and storing data in a program. They allow you to work with collections of values, such as lists, tuples, and dictionaries.
 
-To start learning about variables and data structures in Python, simply type `python3 leveltwo.py` and run the code. 
+To start learning about variables and data structures in Python, simply type `python3 leveltwo.py` and run the code.
 
+**Level Three** will delve into the concepts of inputs, outputs, and functions, which are the building blocks of any programming language. Through this level, you will learn how to create, modify, and use functions to perform specific tasks in your programs.
 
-**Level Three** will delve into the concepts of inputs, outputs, and functions, which are the building blocks of any programming language. Through this level, you will learn how to create, modify, and use functions to perform specific tasks in your programs. You will also gain an in-depth understanding of how inputs and outputs work, and how they are used to receive and produce data in Python.
+To start learning about inputs, outputs, and functions in Python, simply type `python3 levelthree.py` and run the code.
 
-To start learning about inputs, outputs, and functions in Python, simply type `python3 levelthree.py` and run the code. 
-
-
-**Level Four** introduces you to the world of APIs using a Python microframework called Flask. Flask is a powerful tool for building web applications, and it is especially useful for building APIs. APIs, or application programming interfaces, enable different software applications to communicate with each other.
+**Level Four** introduces you to the world of APIs using a Python microframework called Flask. Flask is a powerfulfor building web applications, and it's especially useful for building APIs. APIs, or application programming interfaces, enable different software applications to communicate with each other.
 
 To start Flask, simply type `flask --app levelfour.py run --host 0.0.0.0 --port 5000` and run the code. 
 
+**Level Five** will dive deeper by leveraging our previous experience with implementing OpenAI with functions and Flask. Specifically, we will take the function we previously created and make it available as an endpoint using Flask. By doing so, we will be able to expand the functionality of our application and make it more accessible to users.
 
-**Level Five** will dive deeper by leveraging our previous experience with implementing OpenAI with functions and Flask. Specifically, we will take the function we previously created and make it available as an endpoint using Flask. By doing so, we will be able to expand the functionality of our application and make it more accessible to users. This will require us to carefully consider the design of our code and make strategic decisions about how we structure our application.
-
-To start the application, simply type `flask --app levelfive.py run --host 0.0.0.0 --port 5002` and run the code. 
-
+To start the application, simply type `flask --app levelfive.py run --host 0.0.0.0 --port 5002` and run the code.
 
 **Level Six** is an optional challenge that focuses on observability. This concept is important to ensure that the application runs smoothly and optimally for users. To achieve this, we will onboard a New Relic Python agent into our app. The agent collects data and provides real-time visibility into application behavior, helping to identify potential issues before they impact users.
 
