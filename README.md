@@ -6,9 +6,9 @@ First, we'll provide an overview of basic programming concepts in Python and dis
 
 By the end of the workshop, you'll be able to interact with your AI bot, gain a better understanding of how things work, and start leveraging AI services to increase your productivity.
 
-The tech stack used for this project includes HTML, CSS (with the Milligram framework), Python 3, Flask, and OpenAI.
+The tech stack used for this project includes HTML, CSS (with the Milligram framework), Python 3, Flask, and OpenAI. The project is used to support initiatives such as Women@NR and New Reluc Student Edition deployed in a virtual lab - Instruqt.
 
-Presentation - Coming Soon
+Presentation - [HERE](https://docs.google.com/presentation/d/1w8g8scW_mRSUYNHW6EsSvoS6Rmwk9WSQ_UzrmwDkCU0/edit?usp=sharing)
 
 ---
 
