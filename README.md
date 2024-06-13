@@ -38,24 +38,58 @@ Each level is designed to run as a standalone application to avoid unnecessary i
 
 Variables are like containers that hold values. They allow you to store and manipulate data in your code. In Python, you can assign any value to a variable, such as numbers, strings, or even other variables. Data structures, on the other hand, are ways of organizing and storing data in a program. They allow you to work with collections of values, such as lists, tuples, and dictionaries.
 
-To start learning about variables and data structures in Python, simply type `python3 leveltwo.py` and run the code.
+To start learning about variables and data structures in Python, simply type the following commands:
+
+```shell
+export OPENAI_API_KEY=YOUR_API_KEY_HERE
+
+python3 leveltwo.py
+```
 
 **Level Three** will delve into the concepts of inputs, outputs, and functions, which are the building blocks of any programming language. Through this level, you will learn how to create, modify, and use functions to perform specific tasks in your programs.
 
-To start learning about inputs, outputs, and functions in Python, simply type `python3 levelthree.py` and run the code.
+To start learning about inputs, outputs, and functions in Python, simply type the following commands:
+
+```shell
+export OPENAI_API_KEY=YOUR_API_KEY_HERE
+
+python3 levelthree.py
+```
 
 **Level Four** introduces you to the world of APIs using a Python microframework called Flask. Flask is a powerfulfor building web applications, and it's especially useful for building APIs. APIs, or application programming interfaces, enable different software applications to communicate with each other.
 
-To start Flask, simply type `flask --app levelfour.py run --host 0.0.0.0 --port 5000` and run the code.
+To start Flask, simply type the following commands:
+
+```shell
+flask --app levelfour.py run --host 0.0.0.0 --port 5000
+```
 
 **Level Five** will dive deeper by leveraging our previous experience with implementing OpenAI with functions and Flask. Specifically, we will take the function we previously created and make it available as an endpoint using Flask. By doing so, we will be able to expand the functionality of our application and make it more accessible to users.
 
-To start the application, simply type `flask --app levelfive.py run --host 0.0.0.0 --port 5002` and run the code.
+To start the application, simply type the following commands:
+
+```shell
+export OPENAI_API_KEY=YOUR_API_KEY_HERE
+
+flask --app levelfive.py run --host 0.0.0.0 --port 5002
+```
 
 **Level Six** is an optional challenge that focuses on observability. This concept is important to ensure that the application runs smoothly and optimally for users. To achieve this, we will onboard a New Relic Python agent into our app. The agent collects data and provides real-time visibility into application behavior, helping to identify potential issues before they impact users.
 
-To start the application, simply type `NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelsix.py run --host 0.0.0.0 --port 5004` and run the code.
+To start the application, simply type the following commands:
+
+```shell
+export OPENAI_API_KEY=YOUR_API_KEY_HERE
+
+NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelsix.py run --host 0.0.0.0 --port 5004
+```
 
 **Level Seven** is an optional challenge that focuses on some fun image generation capabilities. This part of the OpenAI capabilities, i.e. leveraging dall-e-3 model, is not yet supported with New Relic AI Monitoring, but will soon be supported as well. The purpose of this exercise is purely to have some fun with image generation capabilities.
 
-To start the application, simply type `NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelseven.py run --host 0.0.0.0 --port 5004` and run the code.
+To start the application, simply type the following commands:
+
+```shell
+export OPENAI_API_KEY=YOUR_API_KEY_HERE
+
+NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelseven.py run --host 0.0.0.0 --port 5004
+```
