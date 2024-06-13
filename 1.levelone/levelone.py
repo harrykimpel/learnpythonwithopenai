@@ -1,8 +1,14 @@
 # import is used to make code in one module available in another
-import openai
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    # This is the default and can be omitted
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
 
 # chat models take a series of messages as input, and return a model-generated message as output
-completion = openai.ChatCompletion.create(
+completion = client.chat.completions.create(
     # ID of the model to use
     model="gpt-3.5-turbo",
     # sampling temperature for non deterministic responses

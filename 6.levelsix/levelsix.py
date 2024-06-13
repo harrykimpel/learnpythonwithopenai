@@ -1,9 +1,13 @@
 # import the New Relic Python Agent
 import newrelic.agent
-import openai
+import os
+from openai import OpenAI
 from flask import Flask, render_template, request
 
-openai.api_key = "API_KEY_HERE"
+client = OpenAI(
+    # This is the default and can be omitted
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
 
 app = Flask(__name__)
 
@@ -12,7 +16,7 @@ newrelic.agent.initialize('newrelic.ini')
 
 
 def chatCompletion(prompt):
-    completion = openai.ChatCompletion.create(
+    completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         temperature=0.8,
         max_tokens=256,

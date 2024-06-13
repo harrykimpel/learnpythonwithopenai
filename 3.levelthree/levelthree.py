@@ -1,5 +1,10 @@
-import openai
-openai.api_key = "API_KEY_HERE"
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    # This is the default and can be omitted
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
 
 # variables are containers for storing data values.
 prompt = "Hello who are you?"
@@ -9,7 +14,7 @@ prompt = "Hello who are you?"
 
 
 def chatCompletion(prompt):
-    completion = openai.ChatCompletion.create(
+    completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         temperature=0.8,
         max_tokens=256,

@@ -1,8 +1,13 @@
-import openai
-# API keys for accessing AI models developed by OpenAI.
-openai.api_key = "API_KEY_HERE"
+import os
+from openai import OpenAI
 
-completion = openai.ChatCompletion.create(
+client = OpenAI(
+    # This is the default and can be omitted
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
+
+# chat models take a series of messages as input, and return a model-generated message as output
+completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
     temperature=0.8,
     max_tokens=256,
