@@ -56,6 +56,6 @@ To start the application, simply type `flask --app levelfive.py run --host 0.0.0
 
 To start the application, simply type `NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelsix.py run --host 0.0.0.0 --port 5004` and run the code.
 
-**Level Seven** is an optional challenge that focuses on some fun image generation capabilities. This part of the OpenAI capabilities, i.e. leveraging dall-e-3 model, is not yet supported with New Relic AI Monitoring, but will soon be supported as well. The purpose of this exercise is purely having some fun with image generation capabilities
+**Level Seven** is an optional challenge that focuses on some fun image generation capabilities. This part of the OpenAI capabilities, i.e. leveraging dall-e-3 model, is not yet supported with New Relic AI Monitoring, but will soon be supported as well. The purpose of this exercise is purely to have some fun with image generation capabilities.
 
 To start the application, simply type `NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app levelseven.py run --host 0.0.0.0 --port 5004` and run the code.
